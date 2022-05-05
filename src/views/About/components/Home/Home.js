@@ -1,10 +1,6 @@
 import React, { useEffect } from "react";
-import { alpha } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
-// import Carousel from "./Carousel";
 
-import Container from "components/Container";
 import DefaultHomePage from "./DefaultHomePage";
 
 const Home = () => {

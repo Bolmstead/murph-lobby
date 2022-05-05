@@ -2,12 +2,9 @@
 import React from "react";
 import { useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-import useMediaQuery from "@mui/material/useMediaQuery";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
-import { Container } from "@mui/material";
 import Divider from "@mui/material/Divider";
 
 const Story = () => {

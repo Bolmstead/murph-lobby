@@ -1,14 +1,13 @@
 import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import Divider from "@mui/material/Divider";
 import ListItem from "@mui/material/ListItem";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
 import ListItemText from "@mui/material/ListItemText";
 import Avatar from "@mui/material/Avatar";
 import { useTheme } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
-import { Input, Grid, Button } from "@mui/material";
+import { Grid, Button } from "@mui/material";
 import Container from "components/Container";
 import emailjs from "@emailjs/browser";
 
@@ -129,7 +128,7 @@ const Contact = (styles) => {
           position={"relative"}
         >
           <Box width={1} order={{ xs: 2, md: 1 }}>
-            <Container maxWidth="md" >
+            <Container maxWidth="md">
               <Box>
                 <Box marginBottom={2}>
                   <Typography

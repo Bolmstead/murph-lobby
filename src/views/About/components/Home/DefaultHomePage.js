@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { useTheme } from "@mui/material/styles";
-import Box from "@mui/material/Box";
-import Fade from "@mui/material/Fade";
+import React, { useState } from "react";
+
 import Container from "@mui/material/Container";
 import { Hidden } from "@mui/material";
 
@@ -44,15 +42,15 @@ function DefaultHomePage() {
           >
             <Container style={{ zIndex: 500 }} maxWidth="md">
               <h1 style={{ color: "white", zIndex: 1000 }}>
-              INNOVATIVE ADVOCACY
+                INNOVATIVE ADVOCACY
               </h1>
               <div style={{ maxWidth: "800px" }}>
                 <span style={{ color: "white" }}>
                   At Wittmeyer and Associates we successfully adapt to an
                   ever-changing landscape in Idaho, regardless of budgetary
                   conditions or politics of the day. As advocates and strategic
-                  advisors, we educate and empower decision makers with
-                  facts and insights through winning strategies.
+                  advisors, we educate and empower decision makers with facts
+                  and insights through winning strategies.
                 </span>
               </div>
             </Container>
@@ -71,7 +69,7 @@ function DefaultHomePage() {
           >
             <Container style={{ zIndex: 500 }} maxWidth="md">
               <h1 style={{ color: "white", zIndex: 1000 }}>
-              INNOVATIVE ADVOCACY
+                INNOVATIVE ADVOCACY
               </h1>
               <div style={{ maxWidth: "800px" }}>
                 <span style={{ color: "white" }}>
@@ -97,8 +95,7 @@ function DefaultHomePage() {
           flexGrow: 1,
         }}
         src="/capital-1.jpeg"
-      >
-      </img>
+      ></img>
     </div>
   );
 }
