@@ -17,9 +17,16 @@ const Footer = () => {
             style={{ color: "inherit" }}
             href="https://www.berkleyolmstead.com"
           >
-            Olmstead Tech Services Inc
+            Olmstead Tech Services Inc.
           </a>
-          . All rights reserved.
+          <Typography
+            align={"center"}
+            variant={"subtitle2"}
+            color="text.secondary"
+            gutterBottom
+          >
+            All rights reserved.{" "}
+          </Typography>
         </Typography>
       </Grid>
     </Grid>

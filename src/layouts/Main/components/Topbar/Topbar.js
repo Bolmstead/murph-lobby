@@ -31,8 +31,7 @@ export default function Topbar({ windowWidth }) {
                       color: "#1E2022",
                       fontWeight: 500,
                       fontSize: 18,
-                      width: "100px",
-                      marginLeft: "20px",
+                      width: windowWidth > 678 ? "100px" : "70px",
                     }}
                   >
                     About
@@ -47,8 +46,8 @@ export default function Topbar({ windowWidth }) {
                       color: "#1E2022",
                       fontWeight: 500,
                       fontSize: 18,
-                      width: "100px",
-                      marginLeft: "20px",
+                      width: windowWidth > 678 ? "100px" : "70px",
+                      marginLeft: windowWidth > 678 ? "20px" : "10px",
                     }}
                   >
                     Expertise
@@ -63,8 +62,8 @@ export default function Topbar({ windowWidth }) {
                       color: "#1E2022",
                       fontWeight: 500,
                       fontSize: 18,
-                      width: "100px",
-                      marginLeft: "20px",
+                      width: windowWidth > 678 ? "100px" : "70px",
+                      marginLeft: windowWidth > 678 ? "20px" : "10px",
                     }}
                   >
                     Contact
