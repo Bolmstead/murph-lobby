@@ -8,7 +8,6 @@ import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
 
 export default function Topbar({ windowWidth }) {
-  console.log(windowWidth);
   return (
     <Box sx={{ flexGrow: 1, zIndex: 100, backgroundColor: "white" }}>
       <AppBar position="static" style={{ backgroundColor: "white" }}>
@@ -31,7 +30,7 @@ export default function Topbar({ windowWidth }) {
                       color: "#1E2022",
                       fontWeight: 500,
                       fontSize: 18,
-                      width: windowWidth > 678 ? "100px" : "70px",
+                      width: windowWidth > 678 ? "100px" : "90px",
                     }}
                   >
                     About
@@ -46,7 +45,7 @@ export default function Topbar({ windowWidth }) {
                       color: "#1E2022",
                       fontWeight: 500,
                       fontSize: 18,
-                      width: windowWidth > 678 ? "100px" : "70px",
+                      width: windowWidth > 678 ? "100px" : "90px",
                       marginLeft: windowWidth > 678 ? "20px" : "10px",
                     }}
                   >
@@ -62,7 +61,7 @@ export default function Topbar({ windowWidth }) {
                       color: "#1E2022",
                       fontWeight: 500,
                       fontSize: 18,
-                      width: windowWidth > 678 ? "100px" : "70px",
+                      width: windowWidth > 678 ? "100px" : "90px",
                       marginLeft: windowWidth > 678 ? "20px" : "10px",
                     }}
                   >
