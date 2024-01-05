@@ -1,15 +1,9 @@
-import React, { useState } from "react";
-import PropTypes from "prop-types";
-import { useTheme } from "@mui/material/styles";
-import useMediaQuery from "@mui/material/useMediaQuery";
 import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
-
-
-import Container from "components/Container";
-
-import { Footer } from "./components";
-
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
+import PropTypes from "prop-types";
+import { useState } from "react";
 
 const Main = ({ children, colorInvert = false, bgcolor = "transparent" }) => {
   const theme = useTheme();
@@ -27,16 +21,12 @@ const Main = ({ children, colorInvert = false, bgcolor = "transparent" }) => {
     setOpenSidebar(false);
   };
 
-
   return (
     <Box>
       <main>
         {children}
         <Divider />
       </main>
-      <Container paddingY={4}>
-        <Footer />
-      </Container>
     </Box>
   );
 };

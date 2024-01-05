@@ -12,13 +12,31 @@ export default function Topbar({ windowWidth }) {
       <AppBar position="static" style={{ backgroundColor: "white" }}>
         <Container maxWidth="xl">
           <Toolbar style={{ padding: "20px 0px 20px 0px" }}>
-            <Grid
-              container
-              justifyContent={windowWidth > 678 ? "space-between" : "center"}
-            >
-              <img src="logoBlack.png" style={{ width: "300px" }} />
-
-              <Grid item style={{ display: "flex", alignItems: "center" }}>
+            <Grid container>
+              <Grid
+                item
+                xs={12}
+                lg={8}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: windowWidth > 1159 ? "flex-start" : "center",
+                }}
+              >
+                {" "}
+                <img src="logoBlack.png" style={{ width: "300px" }} />
+              </Grid>
+              <Grid
+                item
+                xs={12}
+                lg={4}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  marginTop: windowWidth > 1159 ? "0px" : "15px",
+                }}
+              >
                 {" "}
                 <a
                   style={{ textDecoration: "none", textTransform: "none" }}

@@ -15,7 +15,7 @@ const Story = () => {
         <Box
           width={1}
           boxShadow={0}
-          style={{ backgroundColor: "rgb(247,250,255)", marginBottom: "60px" }}
+          style={{ backgroundColor: "rgb(247,250,255)", marginBottom: "30px" }}
           variant={"outlined"}
         >
           <CardContent sx={{ padding: 5 }}>

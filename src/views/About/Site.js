@@ -1,20 +1,11 @@
-import React, { useState, useEffect } from "react";
 import Box from "@mui/material/Box";
 import Divider from "@mui/material/Divider";
+import { useEffect, useState } from "react";
 
-import Main from "layouts/Main";
 import Container from "components/Container";
-import {
-  Contact,
-  Gallery,
-  Hero,
-  Partners,
-  Story,
-  Team,
-  WhoWeAre,
-  Application,
-} from "./components";
+import Main from "layouts/Main";
 import { Topbar } from "layouts/Main/components";
+import { Contact, Hero, Story, Team } from "./components";
 
 const Site = () => {
   const [windowWidth, setWindowWidth] = useState(null);
@@ -22,6 +13,7 @@ const Site = () => {
   useEffect(() => {
     function handleResize() {
       let width = Math.min(1200, window.innerWidth - 40);
+      console.log("🚀 ~ file: Site.js:25 ~ handleResize ~ width:", width);
       setWindowWidth(width);
     }
     window.addEventListener("resize", handleResize);
