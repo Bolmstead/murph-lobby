@@ -1,10 +1,8 @@
-import React, { useState } from "react";
-
-import Container from "@mui/material/Container";
 import { Hidden } from "@mui/material";
+import Container from "@mui/material/Container";
 
 function DefaultHomePage() {
-  const [checked, setChecked] = useState(false);
+  // const [checked, setChecked] = useState(false);
 
   // useEffect(() => {
   //   function fadeInText() {
@@ -16,9 +14,9 @@ function DefaultHomePage() {
   //   }, 1000);
   // }, []);
 
-  const handleChange = () => {
-    setChecked((prev) => !prev);
-  };
+  // const handleChange = () => {
+  //   setChecked((prev) => !prev);
+  // };
 
   return (
     <div style={{ position: "relative", height: "94vh", width: "100%" }}>
@@ -46,11 +44,12 @@ function DefaultHomePage() {
               </h1>
               <div style={{ maxWidth: "800px" }}>
                 <span style={{ color: "white" }}>
-                  At Wittmeyer and Associates we successfully adapt to an
-                  ever-changing landscape in Idaho, regardless of budgetary
-                  conditions or politics of the day. As advocates and strategic
-                  advisors, we educate and empower decision makers with facts
-                  and insights through winning strategies.
+                  As a full-service public policy and lobby firm, Wittmeyer &
+                  Associates focuses on one goal, which is our client's
+                  objective. With over two decades serving clientele in the
+                  state of Idaho and Washington, DC, we adapt to an
+                  ever-evolving political landscape through focused strategy and
+                  government relations.
                 </span>
               </div>
             </Container>
@@ -73,11 +72,12 @@ function DefaultHomePage() {
               </h1>
               <div style={{ maxWidth: "800px" }}>
                 <span style={{ color: "white" }}>
-                  At Wittmeyer and Associates we successfully adapt to an
-                  ever-changing landscape in Idaho, regardless of budgetary
-                  conditions or politics of the day. As advocates and strategic
-                  advisors, we educate and empower federal decision makers with
-                  facts and insights through winning strategies.
+                  As a full-service public policy and lobby firm, Wittmeyer &
+                  Associates focuses on one goal, which is our client's
+                  objective. With over two decades serving clientele in the
+                  state of Idaho and Washington, DC, we adapt to an
+                  ever-evolving political landscape through focused strategy and
+                  government relations.
                 </span>
               </div>
             </Container>

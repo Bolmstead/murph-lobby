@@ -1,9 +1,8 @@
-import * as React from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import Grid from "@mui/material/Grid";
+import Toolbar from "@mui/material/Toolbar";
 
 import Container from "@mui/material/Container";
 
@@ -11,15 +10,15 @@ export default function Topbar({ windowWidth }) {
   return (
     <Box sx={{ flexGrow: 1, zIndex: 100, backgroundColor: "white" }}>
       <AppBar position="static" style={{ backgroundColor: "white" }}>
-        <Container maxWidth="lg">
-          <Toolbar style={{ padding: "10px" }}>
+        <Container maxWidth="xl">
+          <Toolbar style={{ padding: "20px 0px 20px 0px" }}>
             <Grid
               container
               justifyContent={windowWidth > 678 ? "space-between" : "center"}
             >
-              <img src="logo-example.gif" style={{ width: "250px" }} />
+              <img src="logoBlack.png" style={{ width: "300px" }} />
 
-              <Grid item>
+              <Grid item style={{ display: "flex", alignItems: "center" }}>
                 {" "}
                 <a
                   style={{ textDecoration: "none", textTransform: "none" }}
@@ -29,8 +28,8 @@ export default function Topbar({ windowWidth }) {
                     style={{
                       color: "#1E2022",
                       fontWeight: 500,
-                      fontSize: 18,
-                      width: windowWidth > 678 ? "100px" : "90px",
+                      fontSize: 22,
+                      width: windowWidth > 678 ? "160px" : "160px",
                     }}
                   >
                     About
@@ -44,9 +43,8 @@ export default function Topbar({ windowWidth }) {
                     style={{
                       color: "#1E2022",
                       fontWeight: 500,
-                      fontSize: 18,
-                      width: windowWidth > 678 ? "100px" : "90px",
-                      marginLeft: windowWidth > 678 ? "20px" : "10px",
+                      fontSize: 22,
+                      width: windowWidth > 678 ? "160px" : "160px",
                     }}
                   >
                     Expertise
@@ -60,9 +58,8 @@ export default function Topbar({ windowWidth }) {
                     style={{
                       color: "#1E2022",
                       fontWeight: 500,
-                      fontSize: 18,
-                      width: windowWidth > 678 ? "100px" : "90px",
-                      marginLeft: windowWidth > 678 ? "20px" : "10px",
+                      fontSize: 22,
+                      width: windowWidth > 678 ? "160px" : "160px",
                     }}
                   >
                     Contact

@@ -1,22 +1,21 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
-import { useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import CardContent from "@mui/material/CardContent";
-import Typography from "@mui/material/Typography";
-import Grid from "@mui/material/Grid";
 import Divider from "@mui/material/Divider";
+import Grid from "@mui/material/Grid";
+import Typography from "@mui/material/Typography";
+import { useTheme } from "@mui/material/styles";
 
 const Story = () => {
   const theme = useTheme();
 
   return (
     <Grid container spacing={1} justify="center" style={{ padding: "0px" }}>
-      <Grid item container alignItems={"center"} xs={12} md={6}>
+      <Grid item container alignItems={"center"} xs={12} md={7}>
         <Box
           width={1}
           boxShadow={0}
-          style={{ backgroundColor: "rgb(247,250,255)", marginBottom: "60px"}}
+          style={{ backgroundColor: "rgb(247,250,255)", marginBottom: "60px" }}
           variant={"outlined"}
         >
           <CardContent sx={{ padding: 5 }}>
@@ -29,22 +28,45 @@ const Story = () => {
                 color: "#1E2022",
               }}
             >
-              About the Firm
+              Murphy Olmstead{" "}
             </Typography>
-            <Box style={{width: "100%", display: "flex", justifyContent: "center"}}>
-            <Divider  style={{marginBottom: "15px", width: "300px"}}/>
+            <Box
+              style={{
+                width: "100%",
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
+              <Divider style={{ marginBottom: "15px", width: "300px" }} />
             </Box>
 
-
-            <Typography component={"p"} style={{ textAlign: "center" }} color={"text.secondary"}>
-              Our focus is always on finding the best people to work with. Our
-              bar is high, but you look ready to take on the challenge. We
-              design and implement creative solutions to everyday business
-              problems.
+            <Typography
+              component={"p"}
+              style={{ textAlign: "center" }}
+              color={"text.secondary"}
+            >
+              As a fourth-generation Idahoan, Mr. Olmstead has deep-rooted
+              lineage within the Idaho political landscape. His great-uncle,
+              Ralph Olmstead, served as Speaker of the House from 1978-1982.
+              Murphy's father, Brent Olmstead, served the state of Idaho in
+              multiple government affairs roles such as the Assistant Dean at
+              the University of Idaho College of Agriculture & Life Sciences and
+              as the former President of the Milk Producers of Idaho.
               <br />
               <br />
-              We are a team of creative consultants who help bridge the digital
-              gap between companies
+              With over seven years of experience in government affairs, Murphy
+              navigates his clients through the labyrinth of government by
+              always mapping out the objective. A firm believer in studying the
+              route, Murphy doesn't leave a stone unturned.He believes that
+              results begin with relationship building, honest public policy and
+              respect for the process. Mr. Olmstead took over the firm in 2018
+              to carry on the legacy that is Wittmeyer & Associates, LLC. His
+              passion is driven through the character and work ethic of his late
+              step-mother, Jane Wittmeyer.
+              <br />
+              <br />
+              Alma Mater: University of Idaho, BS in Business Marketing/
+              Entrepreneurship
             </Typography>
           </CardContent>
         </Box>
@@ -55,7 +77,7 @@ const Story = () => {
         justifyContent="center"
         alignItems="center"
         xs={12}
-        md={6}
+        md={5}
         style={{ display: "flex", flexDirection: "column" }}
       >
         <Box
@@ -67,7 +89,7 @@ const Story = () => {
             filter: theme.palette.mode === "dark" ? "brightness(0.8)" : "none",
           }}
         />
-        <h2
+        {/* <h2
           style={{
             color: "#1E2022",
             paddingBottom: "0px",
@@ -76,7 +98,7 @@ const Story = () => {
         >
           Murphy Olmstead
         </h2>{" "}
-        <span style={{ color: "#677787" }}>Owner / Lobbyist</span>{" "}
+        <span style={{ color: "#677787" }}>Owner / Lobbyist</span> */}
       </Grid>
     </Grid>
   );

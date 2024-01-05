@@ -1,15 +1,14 @@
-import React, { useState } from "react";
+import { Button, Grid } from "@mui/material";
+import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";
-import Typography from "@mui/material/Typography";
 import ListItem from "@mui/material/ListItem";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
 import ListItemText from "@mui/material/ListItemText";
-import Avatar from "@mui/material/Avatar";
-import { useTheme } from "@mui/material/styles";
 import TextField from "@mui/material/TextField";
-import { Grid, Button } from "@mui/material";
+import Typography from "@mui/material/Typography";
+import { useTheme } from "@mui/material/styles";
 import Container from "components/Container";
-import emailjs from "@emailjs/browser";
+import { useState } from "react";
 
 const mock = [
   {
@@ -50,7 +49,7 @@ const mock = [
   },
   {
     label: "Address",
-    value: "349 N 4th St, Boise, ID 83702",
+    value: "407 W. Jefferson Street, Boise, ID 83702",
     icon: (
       <svg
         width={20}
@@ -96,23 +95,23 @@ const Contact = (styles) => {
     });
   };
 
-  const sendEmail = () => {
-    emailjs
-      .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        form.current,
-        "YOUR_PUBLIC_KEY"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
+  // const sendEmail = () => {
+  //   emailjs
+  //     .sendForm(
+  //       "YOUR_SERVICE_ID",
+  //       "YOUR_TEMPLATE_ID",
+  //       form.current,
+  //       "YOUR_PUBLIC_KEY"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         console.log(result.text);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
   return (
     <Box
       sx={{
@@ -147,6 +146,7 @@ const Contact = (styles) => {
                         style={{ width: "100%", backgroundColor: "white" }}
                         size="small"
                         onChange={handleInputChange}
+                        disabled
                       />
                     </Grid>
                     <Grid item xs={6}>
@@ -157,6 +157,7 @@ const Contact = (styles) => {
                         style={{ width: "100%", backgroundColor: "white" }}
                         size="small"
                         onChange={handleInputChange}
+                        disabled
                       />
                     </Grid>
                     <Grid item xs={6}>
@@ -167,6 +168,7 @@ const Contact = (styles) => {
                         style={{ width: "100%", backgroundColor: "white" }}
                         size="small"
                         onChange={handleInputChange}
+                        disabled
                       />
                     </Grid>
                     <Grid item xs={6}>
@@ -177,6 +179,7 @@ const Contact = (styles) => {
                         style={{ width: "100%", backgroundColor: "white" }}
                         size="small"
                         onChange={handleInputChange}
+                        disabled
                       />
                     </Grid>
                     <Grid item xs={12}>
@@ -190,6 +193,7 @@ const Contact = (styles) => {
                         InputProps={{ height: "200px" }}
                         multiline={true}
                         rows={6}
+                        disabled
                       />
                     </Grid>
                   </Grid>
@@ -206,6 +210,7 @@ const Contact = (styles) => {
                       color: "white",
                       width: "100%",
                     }}
+                    disabled
                     // onClick={sendEmail}
                   >
                     Send Message
@@ -291,7 +296,7 @@ const Contact = (styles) => {
                     marginHeight={0}
                     marginWidth={0}
                     scrolling="no"
-                    src="https://maps.google.com/maps?width=100%&height=100%&hl=en&q=349+N+4th+StBoise%2C+ID+83702&ie=UTF8&t=&z=14&iwloc=B&output=embed"
+                    src="https://maps.google.com/maps?width=100%&height=100%&hl=en&q=407+W+Jefferson+St,+Boise,+ID+83702&ie=UTF8&t=&z=14&iwloc=B&output=embed"
                     style={{
                       minHeight: 300,
                       filter:
