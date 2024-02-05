@@ -94,7 +94,7 @@ function DefaultHomePage() {
           width: "100%",
           flexGrow: 1,
         }}
-        src="/capital-1.jpeg"
+        src="/capital.jpeg"
       ></img>
     </div>
   );

@@ -20,6 +20,8 @@ const Site = () => {
     handleResize();
   }, []);
 
+  return <div></div>;
+
   return (
     <Main colorInvert={true}>
       <Topbar windowWidth={windowWidth} />
