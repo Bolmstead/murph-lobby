@@ -1,10 +1,9 @@
-import { Button, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import Avatar from "@mui/material/Avatar";
 import Box from "@mui/material/Box";
 import ListItem from "@mui/material/ListItem";
 import ListItemAvatar from "@mui/material/ListItemAvatar";
 import ListItemText from "@mui/material/ListItemText";
-import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import { useTheme } from "@mui/material/styles";
 import Container from "components/Container";
@@ -120,16 +119,16 @@ const Contact = (styles) => {
         overflow: "hidden",
       }}
     >
-      <Container paddingX={0} paddingY={0} maxWidth={{ sm: 1, md: 1236 }}>
+      <Container paddingX={0} paddingY={0} style={{ width: "100%" }}>
         <Box
           display={"flex"}
           flexDirection={{ xs: "column", md: "row" }}
           position={"relative"}
         >
           <Box width={1} order={{ xs: 2, md: 1 }}>
-            <Container maxWidth="md">
+            <Container maxWidth="sm">
               <Box>
-                <Box marginBottom={2}>
+                {/* <Box marginBottom={2}>
                   <Typography
                     variant={"h4"}
                     sx={{ fontWeight: 700, marginBottom: "20px" }}
@@ -215,14 +214,68 @@ const Contact = (styles) => {
                   >
                     Send Message
                   </Button>
-                </Box>
-                <Grid container>
+                </Box> */}
+                <Grid
+                  container
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                  }}
+                  spacing={10}
+                >
                   <Grid item>
                     <Box
                       display={"flex"}
                       flexDirection={"column"}
                       justifyContent={"space-between"}
                     >
+                      <Box
+                        key={"title"}
+                        component={ListItem}
+                        disableGutters
+                        width={"auto"}
+                        padding={4}
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          width: "100%",
+                          paddingTop: 0,
+                        }}
+                      >
+                        {" "}
+                        <Grid
+                          item
+                          xs={12}
+                          lg={8}
+                          style={{
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            width: "100%",
+                          }}
+                        >
+                          {" "}
+                          <img src="logoBlack.png" style={{ width: "320px" }} />
+                        </Grid>{" "}
+                      </Box>
+                      <Box
+                        display={"flex"}
+                        flexDirection={"column"}
+                        justifyContent={"space-between"}
+                        style={{ marginBottom: "20px" }}
+                      >
+                        <Typography
+                          component={"p"}
+                          style={{ textAlign: "left" }}
+                          color={"text.secondary"}
+                        >
+                          Wittmeyer and Associates has proven results in media,
+                          public relations and government affairs and helps its
+                          clients navigate the often-complex structure of state
+                          and local government.
+                        </Typography>
+                      </Box>
+
                       {mock.map((item, i) => (
                         <Box
                           key={i}
