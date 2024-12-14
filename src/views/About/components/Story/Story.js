@@ -60,9 +60,9 @@ const Story = () => {
               route, Murphy doesn't leave a stone unturned.He believes that
               results begin with relationship building, honest public policy and
               respect for the process. Mr. Olmstead took over the firm in 2018
-              to carry on the legacy that is Wittmeyer & Associates, LLC. His
-              passion is driven through the character and work ethic of his late
-              step-mother, Jane Wittmeyer.
+              to carry on the legacy that is W & A, LLC. His passion is driven
+              through the character and work ethic of his late step-mother, Jane
+              W.
               <br />
               <br />
               Alma Mater: University of Idaho, BS in Business Marketing/

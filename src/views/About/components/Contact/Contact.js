@@ -14,19 +14,19 @@ const mock = [
     label: "Email",
     value: (
       <a
-        href="mailto:murphy@wittmeyerassociates.com"
+        href="murphy@WittmeyerAssociates.com"
         style={{
           textDecoration: "none",
           textTransform: "none",
           color: "#677787",
         }}
       >
-        murphy@wittmeyerassociates.com
+        murphy@WA.com
       </a>
     ),
     icon: (
       <a
-        href="mailto:murphy@wittmeyerassociates.com"
+        href="murphy@WittmeyerAssociates.com"
         style={{
           textDecoration: "none",
           textTransform: "none",
@@ -269,10 +269,10 @@ const Contact = (styles) => {
                           style={{ textAlign: "left" }}
                           color={"text.secondary"}
                         >
-                          Wittmeyer and Associates has proven results in media,
-                          public relations and government affairs and helps its
-                          clients navigate the often-complex structure of state
-                          and local government.
+                          W and A has proven results in media, public relations
+                          and government affairs and helps its clients navigate
+                          the often-complex structure of state and local
+                          government.
                         </Typography>
                       </Box>
 
