@@ -52,8 +52,9 @@ const Team = () => {
           The Expertise
         </Typography>
         <Typography variant="h6" align={"center"} color={"text.secondary"}>
-          While we offer a broad range of expertise for our clients, <br />W &
-          A, LLC has decades of experience in the following industries.
+          While we offer a broad range of expertise for our clients, <br />
+          Wittmeyer and Associates has decades of experience in the following
+          industries.
         </Typography>
       </Box>
       <Grid container spacing={2}>

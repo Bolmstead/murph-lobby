@@ -21,7 +21,7 @@ const mock = [
           color: "#677787",
         }}
       >
-        murphy@WA.com
+        murphy@WittmeyerAssociates.com
       </a>
     ),
     icon: (
@@ -269,10 +269,10 @@ const Contact = (styles) => {
                           style={{ textAlign: "left" }}
                           color={"text.secondary"}
                         >
-                          W and A has proven results in media, public relations
-                          and government affairs and helps its clients navigate
-                          the often-complex structure of state and local
-                          government.
+                          Wittmeyer and Associates has proven results in media,
+                          public relations and government affairs and helps its
+                          clients navigate the often-complex structure of state
+                          and local government.
                         </Typography>
                       </Box>
 

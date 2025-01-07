@@ -44,11 +44,12 @@ function DefaultHomePage() {
               </h1>
               <div style={{ maxWidth: "800px" }}>
                 <span style={{ color: "white" }}>
-                  As a full-service public policy and lobby firm, W & A focuses
-                  on one goal, which is our client's objective. With over two
-                  decades serving clientele in the state of Idaho and
-                  Washington, DC, we adapt to an ever-evolving political
-                  landscape through focused strategy and government relations.
+                  As a full-service public policy and lobby firm, Wittmeyer &
+                  Associates focuses on one goal, which is our client's
+                  objective. With over two decades serving clientele in the
+                  state of Idaho and Washington, DC, we adapt to an
+                  ever-evolving political landscape through focused strategy and
+                  government relations.
                 </span>
               </div>
             </Container>
@@ -71,11 +72,12 @@ function DefaultHomePage() {
               </h1>
               <div style={{ maxWidth: "800px" }}>
                 <span style={{ color: "white" }}>
-                  As a full-service public policy and lobby firm, W & A focuses
-                  on one goal, which is our client's objective. With over two
-                  decades serving clientele in the state of Idaho and
-                  Washington, DC, we adapt to an ever-evolving political
-                  landscape through focused strategy and government relations.
+                  As a full-service public policy and lobby firm, Wittmeyer &
+                  Associates focuses on one goal, which is our client's
+                  objective. With over two decades serving clientele in the
+                  state of Idaho and Washington, DC, we adapt to an
+                  ever-evolving political landscape through focused strategy and
+                  government relations.
                 </span>
               </div>
             </Container>
