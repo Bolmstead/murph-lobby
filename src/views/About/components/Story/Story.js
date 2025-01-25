@@ -45,24 +45,20 @@ const Story = () => {
               style={{ textAlign: "center" }}
               color={"text.secondary"}
             >
-              As a fourth-generation Idahoan, Mr. Olmstead has deep-rooted
-              lineage within the Idaho political landscape. His great-uncle,
-              Ralph Olmstead, served as Speaker of the House from 1978-1982.
-              Murphy's father, Brent Olmstead, served the state of Idaho in
-              multiple government affairs roles such as the Assistant Dean at
-              the University of Idaho College of Agriculture & Life Sciences and
-              as the former President of the Milk Producers of Idaho.
+              Wittmeyer & Associates, LLC is a government affairs and consulting
+              firm located in Boise, Idaho. Our clients include multinational
+              conglomerates, state level associations and local governments. The
+              firm has an established reputation with over 20 years of
+              experience in federal and state level government policy. We use
+              our expertise and relationships with state policy makers to
+              accomplish any client objectives. <br />
               <br />
-              <br />
-              With over seven years of experience in government affairs, Murphy
-              navigates his clients through the labyrinth of government by
-              always mapping out the objective. A firm believer in studying the
-              route, Murphy doesn't leave a stone unturned.He believes that
-              results begin with relationship building, honest public policy and
-              respect for the process. Mr. Olmstead took over the firm in 2018
-              to carry on the legacy that is Wittmeyer & Associates, LLC. His
-              passion is driven through the character and work ethic of his late
-              step-mother, Jane W.
+              We offer a wide range of services, from negotiating sensitive
+              issues for corporate clients to forming coalitions for small
+              interest groups. Our experience and ability to work with
+              individuals, associations, and grassroots organizations helps us
+              stand out from other firms. We strategize to help our clients
+              navigate the often-complex problems that come with government.
               <br />
               <br />
               Alma Mater: University of Idaho, BS in Business Marketing/

@@ -269,10 +269,9 @@ const Contact = (styles) => {
                           style={{ textAlign: "left" }}
                           color={"text.secondary"}
                         >
-                          Wittmeyer and Associates has proven results in media,
-                          public relations and government affairs and helps its
-                          clients navigate the often-complex structure of state
-                          and local government.
+                          We are always taking more clients in any industry.
+                          Please contact our office to learn how we can help
+                          you!
                         </Typography>
                       </Box>
 
