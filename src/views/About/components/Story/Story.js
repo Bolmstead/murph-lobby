@@ -45,7 +45,7 @@ const Story = () => {
               style={{ textAlign: "center" }}
               color={"text.secondary"}
             >
-              We are a full service government affairs and consulting firm
+              We are a full-service government affairs and consulting firm
               located in Boise, Idaho. Our clients include multinational
               conglomerates, state level associations and local governments. The
               firm has an established reputation with over 20 years of
