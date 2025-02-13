@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 import "./app.css";
 
 const App = () => {
-  return <div></div>;
+  // return <div></div>;
   return (
     <Page>
       <BrowserRouter>

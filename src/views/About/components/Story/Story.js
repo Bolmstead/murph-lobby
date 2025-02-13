@@ -28,7 +28,7 @@ const Story = () => {
                 color: "#1E2022",
               }}
             >
-              Murphy Olmstead{" "}
+              About
             </Typography>
             <Box
               style={{
@@ -45,24 +45,20 @@ const Story = () => {
               style={{ textAlign: "center" }}
               color={"text.secondary"}
             >
-              Wittmeyer & Associates, LLC is a government affairs and consulting
-              firm located in Boise, Idaho. Our clients include multinational
+              We are a full service government affairs and consulting firm
+              located in Boise, Idaho. Our clients include multinational
               conglomerates, state level associations and local governments. The
               firm has an established reputation with over 20 years of
               experience in federal and state level government policy. We use
               our expertise and relationships with state policy makers to
-              accomplish any client objectives. <br />
-              <br />
-              We offer a wide range of services, from negotiating sensitive
-              issues for corporate clients to forming coalitions for small
-              interest groups. Our experience and ability to work with
-              individuals, associations, and grassroots organizations helps us
-              stand out from other firms. We strategize to help our clients
-              navigate the often-complex problems that come with government.
+              accomplish any client objectives.
               <br />
               <br />
-              Alma Mater: University of Idaho, BS in Business Marketing/
-              Entrepreneurship
+              Wittmeyer & Associates, LLC was founded in 2008 by the late Jane
+              Wittmeyer. Since her passing, the firm was taken over by her son,
+              Murphy Olmstead in 2018. Murphy Olmstead is the current Principal
+              Owner and has since carried on the legacy of his mother through
+              honest policy and a client dedicated approach.
             </Typography>
           </CardContent>
         </Box>
