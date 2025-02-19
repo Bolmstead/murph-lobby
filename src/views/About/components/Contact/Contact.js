@@ -262,16 +262,15 @@ const Contact = (styles) => {
                         display={"flex"}
                         flexDirection={"column"}
                         justifyContent={"space-between"}
-                        style={{ marginBottom: "20px" }}
+                        style={{ marginBottom: "20px", width: "100%" }}
                       >
                         <Typography
                           component={"p"}
                           style={{ textAlign: "left" }}
                           color={"text.secondary"}
                         >
-                          We are always taking more clients in any industry.
-                          Please contact our office to learn how we can help
-                          you!
+                          For inquiries or further information, <br />
+                          please contact us at the information below.
                         </Typography>
                       </Box>
 

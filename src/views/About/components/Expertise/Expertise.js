@@ -53,7 +53,8 @@ const Expertise = () => {
           Clients
         </Typography>
         <Typography variant="h6" align={"center"} color={"text.secondary"}>
-          Wittmeyer & Associates has worked with a wide range of clients in a variety of Industries and is happily taking more.
+          Wittmeyer & Associates has worked with a wide range of clients in a
+          variety of Industries.
         </Typography>
       </Box>
       <Grid container spacing={2}>
